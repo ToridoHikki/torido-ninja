@@ -17,7 +17,8 @@ function App() {
         <div className="App">
             <Layout>
                 <Sider width="30%"
-                       className="theme-left">dbasksdkasbdjlasbdjkasbdkjasbdjksabdlkajbdbasdkjbasjksakjdsakjfbckjab
+                       className="theme-left">
+                    <SectionTitle style={{fontSize:22}} title={"ABOUT ME"}/>
                 </Sider>
                 <Layout>
                     <Content className="theme-right" style={{paddingTop: 30}}>
@@ -42,21 +43,30 @@ function App() {
                         <SectionProject name={"FARM TRADER"}/>
                         <SectionSubject name={"SOFTWARE ENGINEERING SUBJECT"}/>
                         <SectionContent
-                            content={"daSBILKBKDBLSBFDLKASKBDASLKBFLKASBFLKASBFLKASBFLKASBFLKDBALKFBASLKFBLKAFBLKASFBASLKFBASLK"}/>
+                            content={"My team made an Android application for farmers and traders, help them easy to connect for business. I designed front-end and developed backend API using NodeJS/JavaScript & Firebase."}/>
                         <SectionLabel time={"(2019)"}/>
-                        <SectionProject name={"FARM TRADER"}/>
+                        <SectionProject name={"QUICK SHARE"}/>
                         <SectionSubject name={"WEB DEVELOPMENT AND APPLICATION SUBJECT"}/>
+                        <SectionContent
+                            content={"My team created our website to share documents, music, photos… and finished in 2019. I designed front-end using the Bootstrap framework. "}/>
 
                         <SectionLabel time={"(2019)"}/>
-                        <SectionProject name={"FARM TRADER"}/>
+                        <SectionProject name={"DATABASE FOR MANAGER CANDIDATES"}/>
                         <SectionSubject name={"DATABASE SUBJECT "}/>
+                        <SectionContent
+                            content={"I built a database to manage candidates who registered singercompetition."}/>
 
                         <SectionLabel time={"(2020)"}/>
-                        <SectionProject name={"FARM TRADER"}/>
+                        <SectionProject name={"CO-WORKS"}/>
                         <SectionSubject name={"MOBILE APPS DEVELOPMENT SUBJECT"}/>
-
+                        <SectionContent
+                            content={"My team made an app is called “Co-works” using the React Native framework. I design UI and front-end of app "}/>
+                        <br/>
                         <SectionTitle title={"CERTIFICATES"}/>
+                        <SectionContent content={"Agile & Scrum Methodology certificate by DEK Technologies"}/>
+                        <br/>
                         <SectionTitle title={"HOBBIES"}/>
+                        <SectionContent content={"Coffee and code, read comic, learn new technologies, play game."}/>
                     </Content>
                 </Layout>
             </Layout>
